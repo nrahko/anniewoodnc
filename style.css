@@ -1,16 +1,22 @@
 body {
-    background-color: #f1eee3;
+  background-color: #f1eee3;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
 }
 h1 {
-    font-family: "PT Serif", serif;
+    /* font-family: "PT Serif", serif; */
+    font-family: "Montserrat", sans-serif;
     color: #a18a60;
     text-shadow: 2px 2px 3px lightgray;
 }
 h2 {
-    font-family: "PT Serif", serif;
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "PT Serif", serif; */
     color: black;
     text-shadow: 2px 2px 3px lightgray;
 }
+
  .email {
     text-decoration: none;
     color: black;
@@ -39,7 +45,7 @@ h2 {
     .foreground-content {
         position: relative; /* Ensure it stacks above the background */
         z-index: 1; /* Ensure it stacks above the background */
-        width: 70%;
+        width: 75%;
 
     }
 
